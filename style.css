@@ -1,0 +1,539 @@
+@font-face {
+    font-family: SofiaSans-Black;
+    src: url(./Assets/Fonts/static/SofiaSans-Black.ttf);
+}
+
+body {
+    background-color: #0065c3;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.navigation {
+    width: 100%;
+    height: 120px;
+    background-color: #0065c3;
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid white; */
+
+}
+
+.Img1 {
+    padding-top: 2%;
+    padding-left: 2%;
+    height: 70px;
+    transition: all 1.5sec;
+
+}
+
+.Img1:hover {
+    transform: rotate(350deg);
+}
+
+.products {
+    padding-top: 4%;
+    padding-left: 4%;
+    text-transform: uppercase;
+    font-family: SofiaSans-Black;
+    font-size: 16px;
+    color: azure;
+    cursor: pointer;
+}
+
+.nav2 {
+    margin-top: 4%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+
+    width: 170px;
+    height: 50px;
+    padding-left: 0px;
+}
+
+#buy {
+    border-radius: 20px;
+    border: 4px solid azure;
+    width: 170px;
+    height: 25px;
+    padding-left: 9px;
+    transition: all 0.7s;
+
+}
+
+#buy:hover {
+    /* border-color: #0065c3; */
+    color: #0065c3;
+    background-color: azure;
+    cursor: pointer;
+
+}
+
+.first {
+    width: 100%;
+    height: 700px;
+    /* border: 3px solid azure; */
+    background-color: azure;
+    background-image: url(./Assets/Capture.JPG);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.now {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 43%;
+    margin-top: 45%;
+    font-family: SofiaSans-Black;
+    font-size: 22px;
+    color: azure;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    background-size: cover;
+    background-size: 200px;
+    margin-top: 24%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 70px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.zero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    border: 1px solid black;
+    background-image: url(./Assets/pzs-can-nobug-mobile@3x.png)
+}
+
+.new {
+    margin-left: 50%;
+    margin-top: -30%;
+}
+
+.zero1 {
+    background-color: black;
+    border: 3px solid azure;
+    background-color: black;
+
+}
+
+.headline {
+    width: 400px;
+}
+
+.try {
+    padding-top: 22%;
+    margin-left: -27%;
+    width: 300px;
+    height: 30px;
+}
+
+.ben {
+    padding-top: 40%;
+    margin-left: 2%;
+    width: 220px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.steve {
+    padding-top: 40%;
+    margin-left: -27%;
+    width: 220px;
+    height: 150px;
+    cursor: pointer;
+
+}
+
+.nitro {
+    background-image: url(./Assets/Tablet_Background.png);
+    background-size: 100% 900px;
+    width: 100%;
+    height: 900px;
+
+    position: relative;
+    ;
+}
+
+.glass {
+    padding-left: 20%;
+    padding-top: 16%;
+
+    height: 600px;
+}
+
+.nitrologo {
+    padding-left: 55%;
+    margin-top: -40%;
+    margin-bottom: 40%;
+    height: 300px;
+}
+
+.heading {
+    font-family: "Cervo Neue Bold Neue";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -37%;
+    margin-left: 45%;
+    color: azure;
+    cursor: pointer;
+
+}
+
+.button {
+    margin-top: -20%;
+    margin-left: 65%;
+    width: 200px;
+    size: 200px;
+    font-family: "Cervo Neue Bold Neue";
+    text-transform: uppercase;
+    background: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 3px solid azure;
+    border-radius: 16px;
+    color: azure;
+    font-size: 20px;
+
+}
+
+.button:hover {
+    background-color: white;
+    color: #0065c3;
+    cursor: pointer;
+}
+
+.second {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* flex-direction: row-reverse ; */
+    padding: 0ch;
+}
+
+.second1 {
+    height: 100%;
+
+    width: 100%;
+
+
+}
+
+.img6 {
+    width: 100%;
+    height: 95%;
+}
+
+.img7 {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.img8 {
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.img9 {
+    width: 500px;
+    height: 180px;
+    margin-top: -100%;
+    margin-left: 42%;
+}
+
+.mango {
+    width: 100%;
+    height: 600px;
+
+}
+
+.img11 {
+    width: fit-content;
+    height: 600px;
+    padding-left: 80%;
+    margin-top: -50%;
+
+}
+
+.img10 {
+
+    height: 350px;
+    padding-top: 15%;
+
+
+}
+
+.img12 {
+    margin-top: -50%;
+    padding-left: 40%;
+    padding-bottom: 13%;
+    width: 550px;
+}
+
+.img13 {
+    width: 550px;
+    margin-top: -50%;
+    padding-left: 40%;
+    padding-bottom: 8%;
+}
+
+.vid {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+video {
+
+    width: 100%;
+    ;
+
+}
+
+.like {
+    width: 100%;
+    height: 600px;
+}
+
+.img14 {
+    height: 600px;
+
+}
+
+.img15 {
+    padding-left: 56%;
+    margin-top: -70%;
+    padding-bottom: 10%;
+    width: 500px;
+    height: 350px;
+}
+
+.flavor {
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    background-color: #0065c3;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.img16 {
+    /* padding-left: -20%; */
+    margin-right: 10%;
+    height: 300px;
+    width: 400px;
+    margin-top: 10%;
+    box-shadow: black;
+
+}
+
+h1 {
+    font-family: "Cervo Neue Bold Neue";
+    font-weight: 400;
+    font-size: 70px;
+
+    display: inline;
+    color: azure;
+    text-transform: uppercase;
+    padding-bottom: 20%;
+    padding-left: -25%;
+    /* padding-top: 10%; */
+
+}
+
+.jod {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: black; */
+    width: 50%;
+}
+
+.jomd {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-decoration: solid;
+    font-size: 19px;
+    color: azure;
+    padding-left: 0%;
+    padding-right: 30%;
+    justify-content: left;
+
+}
+
+.button1 {
+    border-radius: 20px;
+    border: 4px solid azure;
+    font-family: "Cervo Neue Bold Neue";
+    font-size: 18px;
+    color: azure;
+    text-transform: uppercase;
+    padding: 6px;
+
+}
+
+.button1:hover {
+    color: #0065c3;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.slast {
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 1%; */
+}
+
+.images {
+
+    padding-bottom: 15%;
+    width: 250px;
+    height: 250px;
+    transition: all 0.7s;
+    
+
+}
+
+.images:hover {
+    rotate: 20deg;
+    cursor: pointer;
+}
+
+.pslast {
+    padding-bottom: 24%;
+    font-family: "Cervo Neue Bold Neue";
+    color: #0065c3;
+    font-size: 70px;
+    display: inline-block;
+}
+
+.image18 {
+    width: 20px;
+}
+
+.last {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+
+
+}
+
+.last1 {
+    background-color: #0065c3;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tt:hover {
+    rotate: 360deg;
+}
+
+.last2 {
+    background-color: #0065c3;
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+
+    font-family: "Cervo Neue Bold Neue";
+    color: azure;
+    font-size: 25px;
+    padding-top: 3%;
+    text-transform: uppercase;
+
+}
+
+#ss:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+.last3 {
+    width: 17%;
+
+    background-color: #0065c3;
+
+    display: inline-block;
+    text-align: center;
+
+    font-family: "Cervo Neue Bold Neue";
+    color: azure;
+    font-size: 25px;
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+.last4 {
+    background-color: #0065c3;
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+
+    font-family: "Cervo Neue Bold Neue";
+    color: azure;
+    font-size: 25px;
+    padding-top: 3%;
+    text-transform: uppercase;
+}
+
+.last5 {
+
+    background-color: #0065c3;
+    width: 34%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ahm {
+    font-family: "Cervo Neue Bold Neue";
+    color: azure;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #0065c3;
+    margin-top: 20%;
+    padding-top: 2%;
+    margin-left: 20%;
+
+}
+
+#qq {
+    width: 30px;
+    height: 32px;
+    display: flex;
+    align-items: end;
+}
+
+.jj {
+    display: flex;
+    flex-direction: row;
+}
